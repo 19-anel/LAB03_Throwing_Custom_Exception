@@ -42,6 +42,30 @@ namespace LAB03_Throwing_Custom_Exception
             set { this._ManufacturingDate = value; }
         }
 
-        public
+        public string ExpirationDate
+        {
+            get { return this._ExpirationDate; }
+            set { this._ExpirationDate = value; }
+        }
+
+        public string Description
+        {
+            get { return this._Description; }
+            set { this._Description = value; }
+        }
+
+        public int Quantity
+        {
+            get { return this._Quantity; }
+            set { this._Quantity = value; }
+        }
+
+        public double SellingPrice
+        {
+            get { return this._SellingPrice; }
+            set { this._SellingPrice = value; }
+        }
+
+
     }
 }
