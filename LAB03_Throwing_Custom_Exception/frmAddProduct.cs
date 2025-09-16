@@ -38,6 +38,7 @@ namespace LAB03_Throwing_Custom_Exception
             public CurrencyFormatException(string message) : base(message) { }
         }
 
+
         private void frmAddProduct_Load(object sender, EventArgs e)
         {
             string[] ListOfProductCategory =
